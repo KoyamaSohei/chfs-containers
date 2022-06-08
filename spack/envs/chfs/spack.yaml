@@ -6,7 +6,7 @@ spack:
   # add package specs to the `specs` list
   specs:
   - mercury~boostsys
-  - chfs
+  - chfs@master
   view: true
   concretization: together
   compilers:
