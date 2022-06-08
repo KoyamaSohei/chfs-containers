@@ -69,9 +69,6 @@ COPY --chown=${USERNAME}:${USERNAME} \
 COPY --chown=${USERNAME}:${USERNAME} \
   spack/envs/chfs/spack.yaml \
   ${SPACK_EXTENSION}/envs/chfs/spack.yaml
-COPY --chown=${USERNAME}:${USERNAME} \
-  spack/envs/chfs/spack.lock \
-  ${SPACK_EXTENSION}/envs/chfs/spack.lock
 RUN \
   spack env activate ${CHFS_SPACK_ENV} \
   && spack install
