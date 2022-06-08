@@ -1,6 +1,6 @@
 [submodule "extern/chfs"]
 	path = extern/chfs
-	url = ../chfs
+	url = https://github.com/otatebe/chfs
   update = merge
 [submodule "extern/mochi-spack-packages"]
 	path = extern/mochi-spack-packages
@@ -8,5 +8,5 @@
   update = merge
 [submodule "extern/chfs-spack-packages"]
 	path = extern/chfs-spack-packages
-	url = ../chfs-spack-packages
+	url = https://github.com/range3/chfs-spack-packages
   update = merge
